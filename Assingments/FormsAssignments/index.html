@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1><u>Task 1</u></h1>
+    <fieldset>
+        <h2>Admin Login Page</h2>
+        <form>
+            <table>
+                <tr>
+                    <td colspan="2"><label for="username">Username:</label></td>
+                    <td><input type="text" name="username" id="username">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2"><label for="password">Password:</label></td>
+                    <td><input type="text" name="password" id="password"></td>
+                </tr>
+
+                <tr>
+                    <td><button>Submit</button></td>
+                    <td><button>Reset</button></td>
+                </tr>
+            </table>
+            <br>
+        </form>  
+    </fieldset>
+    <br><br>
+
+    <h1><u>Task 2</u></h1>
+    <fieldset>
+        <h1>Pizza Order Form</h1>
+        <form>
+            <label for="firstName">First Name:</label>
+            <input type="text" name="fName" id="fName">
+            <br><br>
+
+            <label for="lastName">Last Name:</label>
+            <input type="text" name="lName" id="lName">
+            <br><br>
+
+            <label for="Email">Email Address:</label>
+            <input type="text" name="email" id="email">
+            <br><br>
+
+            <label for="MobileNum">Contact Number:</label>
+            <input type="number" name="mobNum" id="MobNum">
+            <br><br>
+
+            <label for="pdd">Preferred Delivery Date:</label>
+            <input type="date" name="deliveryDate" id="deliveryDate">
+            <br><br>
+
+            <label for="size">Size:</label>
+            <br>
+            <input type="radio" name="size" id="size" value="small">
+            <span>Small</span>
+            <input type="radio" name="size" id="size" value="medium">
+            <span>Medium</span>
+            <input type="radio" name="size" id="size" value="large">
+            <span>Large</span>
+            <br><br>
+
+            <label for="flavor">Flaver:</label>
+            <br>
+            <input type="checkbox" name="flavor" id="flavor" value="howaliian">
+            <span>Howaliian (Php 150.00)</span>
+            <br>
+            <input type="checkbox" name="flavor" id="flavor" value="pepperoni">
+            <span>Pepperoni (Php 140.00)</span>
+            <br>
+            <input type="checkbox" name="flavor" id="flavor" value="vegetable">
+            <span>Vegetable (Php 130.00)</span>
+            <br><br>
+
+            <label for="ccNum">Credit Card Number:</label>
+            <input type="number" name="ccNum" id="ccNum" max="12">
+            <br><br>
+
+            <label for="pinNum">PIN:</label>
+            <input type="password" name="pinNum" id="pinNum">
+            <br><br>
+
+            <label for="note">Additional Note:</label>
+            <br>
+            <textarea name="note" id="note"></textarea>
+            <br><br>
+
+            <button>Submit Order</button>
+        </form>
+    </fieldset>
+
+    
+</body>
+</html>
