@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.box1{
+    height: 400px;
+    width: 400px;
+    background-color: aqua;
+    border: 1px solid black;
+    display: flex;
+}
+
+.box2{
+    border: 1px solid black;
+    height: 400px;
+    width: 400px;
+    background-color: aqua;
+}

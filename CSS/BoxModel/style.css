@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+span {
+    border: 2px solid #000;
+    background-color: green;
+}
+
+#A {
+    margin-top: 30px;
+    margin-left: 50px; 
+    height: 120px; 
+    width: 600px;
+    background-color: rgb(105, 44, 237);
+    border: 2px dashed #0c0a0a;
+}
+
+#a {
+    margin-top: 30px;
+    margin-left: 50px;
+    height: 50px;
+    width: 500px;
+    background-color: rgb(237, 44, 76);
+    border: 2px solid black;
+}
+
+#h {
+    margin-top: 16px;
+    margin-left: 50px;
+    width: 80%;
+    background-color: green;
+    border: 2px solid black;
+}
+
+.box {
+    margin: 20px;
+    height: 250px;
+    width: 200px;
+    border: 3px solid black;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+    background-color: rgb(157, 85, 158);
+}
+
+.btn {
+    background-color: blue;
+    padding: 10px;
+    border-radius: 6px;
+}
