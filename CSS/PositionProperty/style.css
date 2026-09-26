@@ -37,3 +37,32 @@
     bottom: 30px;
     right: 40px;
 }
+
+#section { 
+    display: flex;
+    gap: 20px;
+} 
+
+#ricr-img-div {
+    width: 500px;
+    height: 500px;
+    /* position: relative; */
+}
+
+#ricr-img {
+    width: fit;
+    height: inherit;
+}
+
+#read-more, #learn-more {
+    padding: 5px 10px;
+    background-color: rgb(209, 100, 100);
+    border: 1px solid rgb(3, 17, 3);
+    border-radius: 5px;
+}
+
+/* #learn-more {
+    position: absolute;
+    bottom: 10px;
+    left: 55%;
+} */
