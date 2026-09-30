@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Edu+QLD+Hand:wght@400..700&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.heading {
+    font-size: xx-large;
+    font-weight: 900;
+}
+
+.subheading {
+    font-size: large;
+    font-weight: 700;
+    font-style: italic;
+}
+
+#discription span{
+    font-weight: 400;
+    text-decoration: underline;
+    color: green;
+}
+
+main {
+    margin-top: 10px;
+}
+
+.pointer-head {
+    font-size: larger;
+    font-weight: 700;
+}
+
+ul{
+    margin-left: 30px;
+    list-style: "※";
+    /* list-style-image: url(/MyPortfolio/All_Images/premium_photo.avif); */
+}
+
+ol{
+    margin-left: 30px;
+    list-style: georgian;
+}
+
+.footer {
+    background-color: darkblue;
+    column-rule: aliceblue;
+    padding: 5px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+}
+
+ol:first-child {
+    background-color: red;
+}
+
+ol:lastg-child {
+    background-color: green;
+}
