@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#badabox {
+    display: grid;
+    justify-content: space-around;
+    gap: 30px;
+    grid-template-columns: auto auto auto auto auto;
+
+    #para1 #para2 {
+        width: 200px;
+        height: 200px;
+        border: 1px solid black;
+    }
+}
+
+#para1 {
+    img {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+
+@media screen and (max-width: 1000px) {
+    #badabox {
+        grid-template-columns: auto auto auto;
+        row-gap: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #badabox {
+        grid-template-columns: auto auto;
+        row-gap: 20px;
+    }
+}
